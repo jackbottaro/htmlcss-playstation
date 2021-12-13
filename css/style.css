@@ -47,15 +47,22 @@ img {
 
 /* SPOTLIGHT */
 
-#spotlight-top {
-  min-height: 500px;
-  background-image: url("../img/returnal-listing-thumb-01-ps5.jpg");
+[id^="spotlight"] {
+  min-height: 600px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.returnal-hero-logo {
+#spotlight-top {
+  background-image: url("../img/returnal-listing-thumb-01-ps5.jpg");
+}
+
+#spotlight-center {
+  background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+.spotlight-logo {
   height: 100%;
   width: 300px;
 }
