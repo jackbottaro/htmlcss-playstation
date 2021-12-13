@@ -18,6 +18,18 @@ section {
   margin-bottom: 50px;
 }
 
+/* HEADER */
+
+.header-top {
+  min-height: 40px;
+  background-color: black;
+}
+
+.logo-small {
+  height: 100%;
+  width: 70px;
+}
+
 /* SPOTLIGHT */
 
 #spotlight {
