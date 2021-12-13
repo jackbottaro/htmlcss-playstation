@@ -1,0 +1,25 @@
+/* TODO REMOVE */
+
+.container {
+  border: 1px dashed black;
+}
+
+.container-fluid {
+  border: 1px dashed black;
+}
+
+[class^="col"] {
+  min-height: 50px;
+  border: 1px solid red;
+}
+
+section {
+  border: 1px solid blue;
+  margin-bottom: 50px;
+}
+
+/* SPOTLIGHT */
+
+#spotlight {
+  min-height: 400px;
+}
