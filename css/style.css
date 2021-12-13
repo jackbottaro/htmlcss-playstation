@@ -22,15 +22,26 @@ img {
   width: 100%;
 }
 
+/* TEXT */
+
+.title {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 21px;
+  color: #727272;
+}
+
 /* HEADER */
 
 .header-top {
   min-height: 40px;
-  background-color: black;
 }
 
-.logo-small {
-  height: 100%;
+.logo-s {
   width: 70px;
 }
 
