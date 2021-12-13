@@ -18,6 +18,10 @@ section {
   margin-bottom: 50px;
 }
 
+img {
+  width: 100%;
+}
+
 /* HEADER */
 
 .header-top {
@@ -32,6 +36,26 @@ section {
 
 /* SPOTLIGHT */
 
-#spotlight {
-  min-height: 400px;
+#spotlight-top {
+  min-height: 500px;
+  background-image: url("../img/returnal-listing-thumb-01-ps5.jpg");
+
+  background-size: auto;
+  background-position: center;
+}
+
+.returnal-hero-logo {
+  height: 100%;
+  width: 300px;
+}
+
+/* FEATURED GAMES */
+
+#featured-games img {
+  border-radius: 10px;
+}
+
+#featured-games img:hover {
+  border: 1px solid red;
+  /* padding: 5px; */
 }
