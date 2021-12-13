@@ -39,9 +39,9 @@ img {
 #spotlight-top {
   min-height: 500px;
   background-image: url("../img/returnal-listing-thumb-01-ps5.jpg");
-
-  background-size: auto;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .returnal-hero-logo {
