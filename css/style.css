@@ -10,7 +10,7 @@
 
 [class^="col"] {
   min-height: 50px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 section {
@@ -80,6 +80,12 @@ img {
   padding: 5px;
 } */
 
+/* GAMES SALES */
+
+/* #games-sales img {
+  max-width: 400px;
+} */
+
 /* NEW GAMES */
 
 .text-game-name {
@@ -109,6 +115,18 @@ img {
   background-color: #bebcbb;
 }
 
-.ps-plus-image {
+/* PS NOW */
+
+#ps-now {
+  background-color: #161c3b;
+}
+
+/* .ps-plus-image {
   max-width: 500px;
+} */
+
+/* SOCIAL */
+
+#social img {
+  max-width: 160px;
 }
