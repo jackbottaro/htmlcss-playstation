@@ -65,7 +65,7 @@ img {
 
 .spotlight-logo {
   height: 100%;
-  width: 300px;
+  width: 350px;
 }
 
 /* FEATURED GAMES */
@@ -87,14 +87,28 @@ img {
   font-weight: 600;
 }
 
+/* CONSOLE PS5 */
+
+#console-ps5 img {
+  max-width: 700px;
+}
+
+#console-ps5 .showcase-image {
+  max-width: 200px;
+}
+
 /* CONSOLE PS4 */
 
 .card {
   border: 0;
 }
 
-/* PS NOW */
+/* PS PLUS */
 
 #ps-plus {
   background-color: #bebcbb;
+}
+
+.ps-plus-image {
+  max-width: 500px;
 }
