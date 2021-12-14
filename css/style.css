@@ -69,11 +69,19 @@ img {
 
 /* FEATURED GAMES */
 
-#featured-games img {
+#featured-games img,
+#new-games img {
   border-radius: 10px;
 }
 
-#featured-games img:hover {
+/* #featured-games img:hover {
   border: 1px solid red;
   /* padding: 5px; */
+} */
+
+/* NEW GAMES */
+
+.text-game-name {
+  color: white;
+  font-weight: 600;
 }
