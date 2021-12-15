@@ -1,12 +1,12 @@
 /* TODO REMOVE */
 
-.container {
+/* .container {
   border: 1px dashed black;
 }
 
 .container-fluid {
   border: 1px dashed black;
-}
+} */
 
 [class^="col"] {
   min-height: 50px;
@@ -14,13 +14,19 @@
 }
 
 section {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin-bottom: 50px;
 }
 
 img {
   width: 100%;
   display: inline-block;
+}
+
+/* BODY */
+
+body {
+  padding-top: 126px;
 }
 
 /* TEXT */
@@ -49,7 +55,7 @@ img {
 /* SPOTLIGHT */
 
 [id^="spotlight"] {
-  min-height: 600px;
+  padding-top: 230px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -91,6 +97,7 @@ img {
 .text-game-name {
   color: white;
   font-weight: 600;
+  padding-top: 10px;
 }
 
 /* CONSOLE PS5 */
@@ -129,4 +136,18 @@ img {
 
 #social img {
   max-width: 160px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #00439c;
+}
+
+footer img {
+  max-width: 130px;
+}
+
+ul {
+  list-style-type: none;
 }
