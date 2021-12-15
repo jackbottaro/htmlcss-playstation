@@ -81,16 +81,10 @@ body {
   border-radius: 10px;
 }
 
-/* #featured-games img:hover {
-  border: 1px solid red;
-  padding: 5px;
-} */
-
-/* GAMES SALES */
-
-/* #games-sales img {
-  max-width: 400px;
-} */
+#featured-games img:hover {
+  transform: translateY(-5px);
+  transition: transform 0.2s;
+}
 
 /* NEW GAMES */
 
@@ -128,10 +122,6 @@ body {
   background-color: #161c3b;
 }
 
-/* .ps-plus-image {
-  max-width: 500px;
-} */
-
 /* SOCIAL */
 
 #social img {
@@ -146,8 +136,4 @@ footer {
 
 footer img {
   max-width: 130px;
-}
-
-ul {
-  list-style-type: none;
 }
