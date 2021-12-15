@@ -1,26 +1,22 @@
-/* TODO REMOVE */
-
-/* .container {
-  border: 1px dashed black;
-}
-
-.container-fluid {
-  border: 1px dashed black;
-} */
+/* GENERAL */
 
 [class^="col"] {
   min-height: 50px;
-  /* border: 1px solid red; */
+}
+
+[id^="spotlight"] {
+  padding-top: 230px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 section {
-  /* border: 1px solid blue; */
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 img {
   width: 100%;
-  display: inline-block;
 }
 
 /* BODY */
@@ -54,13 +50,6 @@ body {
 
 /* SPOTLIGHT */
 
-[id^="spotlight"] {
-  padding-top: 230px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 #spotlight-top {
   background-image: url("../img/returnal-listing-thumb-01-ps5.jpg");
 }
@@ -82,8 +71,9 @@ body {
 }
 
 #featured-games img:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
   transition: transform 0.2s;
+  cursor: pointer;
 }
 
 /* NEW GAMES */
@@ -104,28 +94,10 @@ body {
   max-width: 200px;
 }
 
-/* CONSOLE PS4 */
-
-.card {
-  border: 0;
-}
-
-/* PS PLUS */
-
-#ps-plus {
-  background-color: #bebcbb;
-}
-
 /* PS NOW */
 
 #ps-now {
   background-color: #161c3b;
-}
-
-/* SOCIAL */
-
-#social img {
-  max-width: 160px;
 }
 
 /* FOOTER */
