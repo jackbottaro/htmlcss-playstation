@@ -19,10 +19,7 @@ img {
   width: 100%;
 }
 
-.btn-dark:hover {
-  border: 2px solid transparent;
-  outline: 2px solid #212529;
-}
+
 
 /* BODY */
 
@@ -52,6 +49,16 @@ body {
   width: 70px;
 }
 
+ul.navbar-nav > li > a {
+  opacity: 0.6;
+ }
+
+ ul.navbar-nav > li:hover > a {
+  opacity: 1;
+ }
+ 
+
+
 /* SPOTLIGHT */
 
 #spotlight-top {
@@ -73,11 +80,11 @@ body {
 #featured-games img,
 #new-games img {
   border-radius: 10px;
+  transition: transform 0.5s;
 }
 
 #featured-games img:hover {
   transform: translateY(-15px);
-  transition: transform 0.5s;
   cursor: pointer;
 }
 
@@ -110,6 +117,7 @@ body {
 .active {
   border-bottom: 2px solid #0876cf;
   padding-bottom: 20px;
+  margin-right: 10px;
 }
 
 .effects {
@@ -140,3 +148,5 @@ footer img {
 .fa-search {
   font-size: 20px;
 }
+
+
