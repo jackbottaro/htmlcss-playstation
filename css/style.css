@@ -77,6 +77,8 @@ ul.navbar-nav > li > a {
 
 /* FEATURED GAMES */
 
+/** effect on hover **/
+
 #featured-games img,
 #new-games img {
   border-radius: 10px;
@@ -119,6 +121,8 @@ ul.navbar-nav > li > a {
   padding-bottom: 20px;
   margin-right: 10px;
 }
+
+/** effect on hover **/
 
 .effects {
   opacity: 0.5;
