@@ -19,8 +19,6 @@ img {
   width: 100%;
 }
 
-
-
 /* BODY */
 
 body {
@@ -51,13 +49,11 @@ body {
 
 ul.navbar-nav > li > a {
   opacity: 0.6;
- }
+}
 
- ul.navbar-nav > li:hover > a {
+ul.navbar-nav > li:hover > a {
   opacity: 1;
- }
- 
-
+}
 
 /* SPOTLIGHT */
 
@@ -93,8 +89,6 @@ ul.navbar-nav > li > a {
 .selected {
   border: 2px solid white;
   outline: 2px solid #0876cf;
-}
-
 }
 
 /* NEW GAMES */
@@ -152,5 +146,3 @@ footer img {
 .fa-search {
   font-size: 20px;
 }
-
-
